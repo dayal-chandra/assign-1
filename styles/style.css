@@ -13,7 +13,7 @@ body {
 /* HEADER */
 
 header {
-  max-width: 1080px;
+  max-width: 1280px;
   margin: 0px auto 20px;
 }
 
@@ -49,13 +49,17 @@ nav button:hover {
 /* BANNER */
 
 .banner {
-  max-width: 1080px;
+  max-width: 1280px;
   margin: auto;
   background-color: #c6e4d6;
   border-radius: 24px;
+}
+
+.banner-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 80px 100px;
 }
 
 .banner-title h2 {
@@ -91,7 +95,7 @@ nav button:hover {
 /* PILLARS */
 
 .pillar {
-  max-width: 1080px;
+  max-width: 1280px;
   margin: 80px auto;
 }
 
@@ -116,7 +120,7 @@ nav button:hover {
   background-color: #bee6dc81;
   padding: 24px;
   width: 25%;
-  height: 300px;
+  height: 240px;
 }
 
 .pillar-card h4 {
@@ -136,7 +140,7 @@ nav button:hover {
 /* VISION */
 
 .vision {
-  max-width: 1080px;
+  max-width: 1280px;
   margin: auto;
 }
 
@@ -164,7 +168,9 @@ nav button:hover {
 }
 
 .vision-card-1 {
+  position: relative;
   width: 33%;
+  height: 280px;
   border: none;
   border-radius: 16px;
   background-color: #5490f533;
@@ -178,7 +184,9 @@ nav button:hover {
 }
 
 .vision-card-2 {
+  position: relative;
   width: 33%;
+  height: 280px;
   border: none;
   border-radius: 16px;
   background-color: #c6e4d6;
@@ -192,7 +200,9 @@ nav button:hover {
 }
 
 .vision-card-3 {
+  position: relative;
   width: 33%;
+  height: 280px;
   border: none;
   border-radius: 16px;
   background-color: #f7ebcf;
@@ -225,6 +235,8 @@ nav button:hover {
   border: none;
   border-radius: 8px;
   background-color: #5490f5;
+  position: absolute;
+  bottom: 32px;
 }
 .vision-card-btn2 {
   color: #fff;
@@ -232,6 +244,8 @@ nav button:hover {
   border: none;
   border-radius: 8px;
   background-color: rgb(9, 161, 92);
+  position: absolute;
+  bottom: 32px;
 }
 .vision-card-btn3 {
   color: #fff;
@@ -239,6 +253,8 @@ nav button:hover {
   border: none;
   border-radius: 8px;
   background-color: rgb(255, 194, 57);
+  position: absolute;
+  bottom: 32px;
 }
 
 /* YUNUS */
@@ -247,7 +263,7 @@ nav button:hover {
   background-image: url("../images/quote-bg.png");
   background-repeat: no-repeat;
   background-position: top calc(21px) left calc(30px);
-  max-width: 1080px;
+  max-width: 1280px;
   margin: 0px auto 80px;
   background-color: #fff;
   padding: 48px 30px;
@@ -281,7 +297,7 @@ nav button:hover {
 /* RECENT NEWS */
 
 .recent-news {
-  max-width: 1080px;
+  max-width: 1280px;
   margin: auto;
 }
 
@@ -340,7 +356,7 @@ nav button:hover {
 /* DONATE */
 
 .donate {
-  max-width: 1080px;
+  max-width: 1280px;
   margin: 56px auto 0px;
   text-align: center;
 }
@@ -370,7 +386,7 @@ nav button:hover {
 
 .donate-box h1 {
   color: rgba(14, 14, 14, 0.8);
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 700;
   background-color: #fff;
   border: 1px solid rgba(14, 14, 14, 0.15);
@@ -403,12 +419,12 @@ input[type="number"]::-webkit-outer-spin-button {
 /* NEWSLETTER */
 
 .newsletter {
-  max-width: 1080px;
+  max-width: 1280px;
   margin: 80px auto;
   text-align: center;
   border-radius: 24px;
   background: #c6e4d6;
-  padding: 80px 100px;
+  padding: 80px 0px;
 }
 
 .newsletter h1 {
