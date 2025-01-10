@@ -121,6 +121,12 @@ nav button:hover {
   padding: 24px;
   width: 25%;
   height: 240px;
+  transition: 0.5s ease-out;
+}
+
+.pillar-card:hover {
+  background-color: #54cbae81;
+  transform: rotate(360deg);
 }
 
 .pillar-card h4 {
