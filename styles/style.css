@@ -451,3 +451,30 @@ input[type="number"]::-webkit-outer-spin-button {
   color: #fff;
   background-color: #006a50;
 }
+
+/* FOOTER */
+
+footer {
+  text-align: center;
+  background-color: #fff;
+}
+
+footer h2 {
+  color: #0e0e0e;
+  font-size: 32px;
+  font-weight: 700;
+  padding: 50px 0px 32px;
+}
+
+hr {
+  width: 75%;
+  margin: auto;
+}
+
+.social {
+  padding: 32px 0px 50px;
+}
+
+.social img {
+  margin-right: 30px;
+}
