@@ -126,7 +126,7 @@ nav button:hover {
 
 .pillar-card:hover {
   background-color: #54cbae81;
-  transform: rotate(360deg);
+  transform: scale(1.1);
 }
 
 .pillar-card h4 {
@@ -300,6 +300,50 @@ nav button:hover {
 
 /* OPINION */
 
+.opinion {
+  max-width: 1280px;
+  margin: 0px auto 70px;
+}
+
+.opinion h1 {
+  color: #0e0e0e;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.opinion-table {
+  background-color: #fff;
+  border: none;
+  border-radius: 16px;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+}
+
+table,
+thead,
+tr,
+td {
+  border-collapse: collapse;
+  padding: 15px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+#table-td {
+  width: 100%;
+}
+
+.table-btn {
+  text-align: center;
+  padding: 8px 15px;
+  background-color: #95e1ce;
+  border: 1px solid rgb(14, 14, 14);
+  border-radius: 4px;
+}
+
 /* RECENT NEWS */
 
 .recent-news {
@@ -331,6 +375,11 @@ nav button:hover {
   gap: 32px;
   padding: 48px;
   margin-bottom: 24px;
+  transition: 0.5s ease;
+}
+
+.news-card:hover {
+  background-color: #a5e0d155;
 }
 
 .news-card > img {
@@ -412,14 +461,10 @@ nav button:hover {
   padding: 15px 32%;
   color: #0e0e0e4d;
   border: none;
+  outline: none;
   font-size: 20px;
   font-weight: 400;
   margin-bottom: 32px;
-}
-
-.donate input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
-  -webkit-appearance: none;
 }
 
 /* NEWSLETTER */
@@ -472,6 +517,11 @@ input[type="number"]::-webkit-outer-spin-button {
   padding: 15px 25px;
   color: #fff;
   background-color: #006a50;
+  transition: 0.5s ease;
+}
+
+.input-sub button:hover {
+  padding: 15px 50px;
 }
 
 /* FOOTER */
