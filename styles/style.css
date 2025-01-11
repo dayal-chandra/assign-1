@@ -89,7 +89,7 @@ nav button:hover {
 .green-btn:hover {
   color: #006a50;
   background-color: #fff;
-  transform: scale(1.1);
+  padding: 10px 20px;
 }
 
 /* PILLARS */
